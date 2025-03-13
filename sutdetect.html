@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUTDetect - Work in Progress</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f4f7; /* Light gray background */
+    }
+  </style>
+</head>
+<body class="text-gray-800 tracking-[-0.02em]">
+  <!-- Navbar -->
+  <nav class="w-screen fixed top-0 z-50 bg-white shadow-md">
+    <div class="relative flex items-center justify-between py-4 px-8">
+      <!-- Left Section: Back Button -->
+      <a href="index.html" class="text-xl font-medium text-gray-800 tracking-[-0.02em] flex items-center gap-1 hover:text-gray-900 transition-colors duration-300">
+        <!-- Left Arrow -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800 hover:text-gray-900 transition-colors duration-300" 
+             style="stroke-width: 1.5;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back
+      </a>
+
+      <!-- Right Section: Links -->
+      <div class="flex gap-6">
+        <!-- LinkedIn Link -->
+        <a href="https://www.linkedin.com/in/teo-yu-wen-bb9573203/" 
+           class="text-lg font-medium text-gray-600 hover:text-gray-900 transition-colors duration-300 flex items-center gap-1" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           aria-label="LinkedIn Profile">
+          LinkedIn
+          <span class="inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-gray-600 tracking-[-0.02em] hover:text-gray-900 transition-colors duration-300" 
+                 style="stroke-width: 1.5;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 15l6-6m0 0h-4m4 0v4" />
+            </svg>
+          </span>
+        </a>
+
+        <!-- Resume Link -->
+        <a href="./assets/Teo Yu Wen Resume 2025 v2.pdf" 
+           class="text-lg font-medium text-gray-600 hover:text-gray-900 tracking-[-0.02em] transition-colors duration-300 flex items-center gap-1" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           aria-label="View Resume">
+          Resume
+          <span class="inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7 text-gray-600 hover:text-gray-900 tracking-[-0.02em] transition-colors duration-300" 
+                 style="stroke-width: 1.5;" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 15l6-6m0 0h-4m4 0v4" />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="pt-24 px-8 text-center">
+    <!-- Title -->
+    <h1 class="text-4xl md:text-6xl font-bold mb-2">SUTDetect - HTX, ’25</h1>
+    <!-- Subtitle -->
+    <p class="text-lg md:text-2xl mb-6 text-gray-700">Revolutionizing investigations with AI-powered eye-tracking for contactless object familiarity detection</p>
+  </main>
+
+  <!-- Full Page PDF Embed -->
+  <iframe src="assets/HTX Preview.pdf" class="w-full h-screen mt-4 border-none"></iframe>
+</body>
+</html>
+
+
